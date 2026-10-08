@@ -1,1 +1,21 @@
+#include <stdio.h>
 
+int main()
+{
+    int userpin;
+    int correctpin = 9999;
+
+    printf("Enter PIN: ");
+    scanf("%d", &userpin);
+
+    if (userpin == correctpin)
+    {
+        printf("Granted Access\n");
+    }
+    else
+    {
+        printf("Access Denied\n");
+    }
+
+    return 0;
+}
