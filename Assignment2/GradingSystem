@@ -11,7 +11,7 @@ int main()
     printf("Enter the number of students, N: ");
     scanf("%d", &N);
     for(int i = 1; i <= N; i++){
-        printf("\n===Enter the details of the student %d===\n", i);
+        printf("\nEnter the details of the student %d\n", i);
         printf("Registration Number: ");
         scanf("%d", &reg_no);
         printf("Name: ");
@@ -33,9 +33,8 @@ int main()
         else{
             grade = 'F';
         }
-        printf("\n------------------------------\n");
+
         printf("        STUDENT INFORMATION\n");
-        printf("\n------------------------------\n");
         printf("Registration No: %d\n", reg_no);
         printf("Name: %s\n", name);
         printf("Marks: %d\n", marks);
@@ -46,8 +45,6 @@ int main()
         else{
             printf("Status: Failed\n");
         }
-        printf("\n------------------------------\n");
-
     }
 
 
